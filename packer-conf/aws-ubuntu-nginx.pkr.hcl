@@ -8,7 +8,7 @@ packer {
 }
 
 source "amazon-ebs" "ubuntu" {
-  ami_name      = "learn-packer-linux-aws-nginx-v2"
+  ami_name      = "learn-packer-linux-aws-nginx-v1"
   instance_type = "t3.micro"
   region        = "ap-southeast-3"
   subnet_id     = "subnet-052da304951b09f58"
